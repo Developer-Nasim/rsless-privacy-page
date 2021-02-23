@@ -1,0 +1,84 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    body { 
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .pr-wrp h1 {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    .pr-padding {
+        padding: 50px 0;
+    }
+    .pri-desc h2 {
+        font-size: 38px;
+    }
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    body { 
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .pr-wrp h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .pr-padding {
+        padding: 50px 0;
+    }
+    .pri-desc h2 {
+        font-size: 28px;
+    }
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    body { 
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .pr-img img {
+        max-width: 280px;
+        margin: auto;
+        display: block;
+        margin-bottom: 35px;
+    }
+    .pr-wrp h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .privacy-area {
+        padding-top: 50px;
+    }
+    .pr-padding {
+        padding: 0px 0;
+        padding-bottom: 50px;
+    }
+    .pri-desc h2 {
+        font-size: 28px;
+    }
+    p.sm-title { 
+        letter-spacing: 1px; 
+        margin-bottom: 5px;
+    }
+    .pri-desc {
+        padding: 30px 20px;
+        border-radius: 15px;
+    }
+} 
