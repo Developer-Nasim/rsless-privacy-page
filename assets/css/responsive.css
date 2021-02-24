@@ -42,7 +42,9 @@
     .pri-desc h2 {
         font-size: 28px;
     }
-
+    .pri-desc {
+        padding: 50px 63px;
+    }
 
 }
 
