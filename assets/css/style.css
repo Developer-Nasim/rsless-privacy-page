@@ -107,6 +107,8 @@ p.sm-title {
 .pr-padding{
   padding: 100px 0;
 }
-
+span.br {
+  display: block;
+}
 
 /* Header section END */

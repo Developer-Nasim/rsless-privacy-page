@@ -21,7 +21,9 @@
     .pri-desc h2 {
         font-size: 38px;
     }
-
+    span.br {
+        display: inline-block;
+      }
 
 }
 
@@ -45,6 +47,9 @@
     .pri-desc {
         padding: 50px 63px;
     }
+    span.br {
+        display: inline-block;
+      }
 
 }
 
@@ -83,4 +88,7 @@
         padding: 30px 20px;
         border-radius: 15px;
     }
+    span.br {
+        display: inline-block;
+      }
 } 
